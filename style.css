@@ -5,7 +5,14 @@ body {
     align-items: center;
     margin-right: 250px;
     margin-top: 100px;
-    background-color: aqua;
+    background: linear-gradient(to left, #5976b1, #01eece);
+  }
+  .papel{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    
   }
 
   .container-jogo {
@@ -14,7 +21,7 @@ body {
   
   .linha {
     display: flex;
-    color: rgb(2, 166, 241);
+    color: rgb(233, 235, 236);
 }
 
 .campo {
@@ -26,3 +33,6 @@ body {
     align-items: center;
     font-size: 2em;
   }
+
+
+  
